@@ -71,6 +71,27 @@ section {
     display: flex;
 }
 
+/* Create two equal columns that float next to each other */
+.column-2-1 {
+    flex: 10%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10%;
+  }
+
+  .column-2-2 {
+    flex: 60%;
+    padding: 5%;
+    background-color: #D8C4B6;
+    margin:30px;
+    border-radius: 10px;
+    margin-right: 7%;
+    
+  }
+
 #sofia_main {
     height: 30vw;  
     border: 10px solid #FAEFDB;
