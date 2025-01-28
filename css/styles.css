@@ -12,7 +12,7 @@
 }
 
 * h1{
-  font-size: 2vw;
+  font-size: 2.3vw;
 }
 
 * h2{
@@ -28,7 +28,7 @@ header nav ul {
     display:inline-flex;
     margin-top: 2%;
     margin-bottom: 1.5%;
-    gap: 30%;
+    gap: 40%;
 }
 
 a{
@@ -40,7 +40,7 @@ a{
     margin-left: 40%;
 }
 .nav-left {
-    margin-left: 0%;
+    margin-left: 2%;
     color: #FBFFFF;
 }
 
