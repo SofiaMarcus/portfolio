@@ -34,20 +34,53 @@ header nav ul {
 a{
     text-decoration: none;
     color: #FBFFFF;
-    }
+}
     
 .nav-right {
     margin-left: 40%;
-    }
+}
 .nav-left {
-    margin-left: 2%;
-    }
+    margin-left: 0%;
+    color: #FBFFFF;
+}
+
+section {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro {
+    background-size: 100%;
+    background-color: F5EFE7;
+    background-blend-mode: multiply;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    border: 1px solid #FAEFDB;
+}
+
+.columns {
+    display: flex;
+}
+
+#sofia_main {
+    height: 30vw;  
+    border: 10px solid #FAEFDB;
+    border-radius: 10%;
+}
 
 
 body {
     margin: 0;
     text-align: center;
-
     background-color: #213555;
-    color: #FBFFFF;
+    color: black;
 }
