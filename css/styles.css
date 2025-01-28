@@ -57,6 +57,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #intro {
@@ -68,11 +69,30 @@ section {
     gap: 8%;
 }
 
+#projects_list{
+    background-size: 100%;
+    background-color: white;
+    color: black;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+.image-cover {
+    background: white;
+    color: black;
+    width: 20vw;
+    height: 17vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
+}
+
 .columns {
     display: flex;
 }
 
-/* Create two equal columns that float next to each other */
 .column-2-1 {
     flex: 10%;
     margin-left: 7%;
@@ -92,23 +112,22 @@ border-radius: 10px;
 margin-right: 7%;  
 }
 
-.column-3_2-1 {
-    flex: 30%;
-    border-radius: 10%;
-    line-height:1.7;
-    padding: 3%;
-    margin-left: 6%;
-    text-align: center;
-    height:35vw;
-    background-color: #FAEFDB;
-    padding-top: 6%;
+.column-2_3-1 {
+    flex: 25%;
+    margin: 2%;
 }
 
-.column-3_2-2 {
-flex: 40%;
-margin:5px;
-height:35vw;
+.column-2_3-2 {
+    line-height:1.7;
+    flex: 60%;
+    text-align: left;
+    margin-top: 2%;
 }
+
+.column-2_3-2 a {
+    color: black;
+}
+
 
 #sofia_main {
     height: 30vw;  
