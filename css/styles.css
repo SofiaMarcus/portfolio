@@ -49,6 +49,10 @@ section {
     overflow-y: scroll;
 }
 
+.short_section {
+    height: 35vh;
+}
+
 .title{
     display: flex;
     justify-content: center;
@@ -57,14 +61,11 @@ section {
 
 #intro {
     background-size: 100%;
-    background-color: F5EFE7;
-    background-blend-mode: multiply;
-
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8%;
-    border: 1px solid #FAEFDB;
 }
 
 .columns {
@@ -78,25 +79,42 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 10%;
-  }
-
-  .column-2-2 {
-    flex: 60%;
-    padding: 5%;
     background-color: #D8C4B6;
-    margin:30px;
-    border-radius: 10px;
-    margin-right: 7%;  
-  }
-
-#sofia_main {
-    height: 30vw;  
-    border: 10px solid #FAEFDB;
     border-radius: 10%;
 }
 
+.column-2-2 {
+flex: 60%;
+padding: 5%;
+background-color: #D8C4B6;
+margin:30px;
+border-radius: 10px;
+margin-right: 7%;  
+}
+
+.column-3_2-1 {
+    flex: 30%;
+    border-radius: 10%;
+    line-height:1.7;
+    padding: 3%;
+    margin-left: 6%;
+    text-align: center;
+    height:35vw;
+    background-color: #FAEFDB;
+    padding-top: 6%;
+}
+
+.column-3_2-2 {
+flex: 40%;
+margin:5px;
+height:35vw;
+}
+
+#sofia_main {
+    height: 30vw;  
+    border: 10px solid #D8C4B6;
+    border-radius: 10%;
+}
 
 body {
     margin: 0;
