@@ -141,6 +141,32 @@ margin-right: 7%;
     border-radius: 10%;
 }
 
+.contact-box {
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;      /* Centers the content vertically */
+    margin-top: 2%;           /* Adds some spacing above the box */
+}
+
+.contact-box a {
+    color: inherit;
+}
+
+.mail-container {
+    display: flex;
+    align-items: center;  
+    gap: 0.5vw;    
+}
+
+#mail_icon {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+span {
+    font-size: 1.1vw;
+}
+
 body {
     margin: 0;
     text-align: center;
